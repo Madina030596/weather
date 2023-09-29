@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="flex-container">
+            <input id="input" type="text" spellcheck="false" placeholder="Поиск">
+            <button class="flex-container__btn" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="flex-column-contianer">
+            <h3 class="flex-column-contianer__place" id="place"></h3>
+            <h5 class="flex-column-contianer__date" id="date"></h5>
+        </div>
+
+        <div class="flex-container">
+            <h2 class="flex-container__temp" id="tempreture"></h2>
+            <img src="" alt="" class="flex-container__icon" id="icon">
+        </div>
+
+        <div class="flex-container">
+            <button id="detailsBtn" class="flex-container__details-btn">Подробнее</button>
+        </div>
+        <div class="hidden-container">
+            <li>
+                <span>Условия</span>
+                <span id="conditions"></span>
+            </li>
+            <li>
+                <span>Ощущается как</span> 
+                <span id="feelsLike"></span>
+            </li>
+            <li>
+                <span>Ветер</span>
+                <span id="wind"></span>
+            </li>
+            <li>
+                <span>Влажность</span>
+                <span id="humidity"></span>
+            </li>
+            <li>
+                <span>Мин. температура</span>
+                <span id="minTemp"></span>
+            </li>
+            <li>
+                <span>Макс. температура</span>
+                <span id="maxTemp"></span>
+            </li>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
