@@ -8,7 +8,7 @@
 
 
 #### Используемые технологии
-HTML5 | CSS3 | JS | API
+HTML5 | CSS3 | JavaScript | API
 
 
 #### Особенности
